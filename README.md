@@ -1,114 +1,365 @@
-# GH-900 | GitHub Foundations
+# GitHub Foundations (GH-900) Demo Repository
 
-> A learning workspace for **Course GH-900T00-A: GitHub Foundations** and the
-> **GitHub Foundations** certification exam.
+## Interactive Field Guide
 
-This repository introduces the GH-900 learning objectives and organizes the
-skills covered by Microsoft Learn into a practical study map. It is intended
-for learners who want to understand how GitHub supports version control,
-collaboration, project work, automation, and secure software development.
+The repository includes a browser-based GH-900 study experience in `index.html`. It includes all seven learning modules, an interactive demo for each module, objective-based checkpoint quizzes, and locally persisted progress.
 
-| Course | Level | Delivery duration | Related certification |
-| --- | --- | --- | --- |
-| GH-900T00-A: GitHub Foundations | Beginner | 2 days | GitHub Foundations |
+Launch it from the repository root with:
 
-## Learning Objective
+```bash
+python3 -m http.server 4173
+```
 
-By the end of this course, learners should be able to explain GitHub's core
-concepts and choose appropriate GitHub features to manage repositories,
-collaborate through issues and pull requests, organize project work, apply
-modern development practices, and make informed decisions about security,
-access, and participation in the GitHub community.
+Then visit <http://localhost:4173> in a browser. No build step or package installation is required.
 
-The objective is practical as well as conceptual: learners should be able to
-read a repository, follow a basic GitHub Flow, contribute to team work, and
-recognize the GitHub tools and settings that support a responsible development
-workflow.
+<div align="center">
 
-## Curriculum Map
+![GitHub Foundations](https://img.shields.io/badge/Certification-GH--900-blue?style=hub
 
-The topics below follow the seven skill domains in Microsoft's GH-900 study
-guide. The percentages are the published exam weighting ranges in the January
-2026 guide; they are planning guidance, not guarantees of how a particular exam
-will be composed.
+![GitHub](https://img.shields.io/badge/GitHub-Learning%20Repository-181717?style=for-the-badge&logo=githubft Learn](https://img.shields.io/badge/Microsoft-Learn-0078Dge&logo=microsoft
+![Hands-On](https://img.shields.io/badge/Hands--On-Demos-success?style=e
 
-| Skill domain | Exam weighting | What learners explore |
-| --- | ---: | --- |
-| [Git and GitHub basics](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#understand-git-and-github-basics-25-30) | 25–30% | Version control; Git versus GitHub; repositories, commits, and branches; accounts and organizations; GitHub Flow; Markdown; GitHub Desktop and GitHub Mobile. |
-| [GitHub repositories](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#work-with-github-repositories-10-15) | 10–15% | Repository structure and files such as `README`, `LICENSE`, `CONTRIBUTING`, `CODEOWNERS`, and `SECURITY`; templates, branches, file management, insights, and maintenance. |
-| [Collaboration with GitHub](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#collaborate-using-github-10-15) | 10–15% | Issues, pull requests, discussions, templates, filters, assignments, linked work, notifications, Gists, Wikis, and GitHub Pages. |
-| [Modern development practices](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#apply-modern-development-practices-10-15) | 10–15% | GitHub Actions; GitHub Copilot plans and AI-assisted features; Codespaces and dev containers; and the `github.dev` editor. |
-| [Project management](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#manage-projects-with-github-5-10) | 5–10% | GitHub Projects and layouts; labels, milestones, workflows, saved replies, assignees, and project insights. |
-| [Privacy, security, and administration](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#understand-privacy-security-and-administration-10-15) | 10–15% | Two-factor authentication and passkeys; repository and organization permissions; visibility; branch protection; teams and roles; Enterprise Managed Users; and organization-wide Copilot policies. |
-| [The GitHub community](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900#explore-the-github-community-5-10) | 5–10% | Open source, GitHub Sponsors, following contributors, the GitHub Marketplace, InnerSource, forks, templates, and discoverable repositories. |
+### Learn GitHub Fundamentals • Practice Real-World Workflows • Prepare for the GH-900 Certification
 
-## Learning Outcomes
+</div>
 
-After working through the curriculum and practice activities, learners should
-be able to:
+---
 
-- Distinguish Git, the version control system, from GitHub, the platform for
-	hosting and collaborating on repositories.
-- Explain how repositories, commits, branches, and merges fit into a basic
-	version-controlled workflow.
-- Navigate a repository and identify the purpose of common project and
-	contribution files.
-- Describe how issues, pull requests, and discussions help people plan,
-	propose, review, and communicate changes.
-- Select suitable GitHub features for project tracking, documentation,
-	automation, and development environments.
-- Recognize ways to protect accounts, manage access, and configure repository
-	and organization settings responsibly.
-- Identify ways to discover, contribute to, and support projects across the
-	GitHub community.
+## 📖 Overview
 
-## Suggested Study Sequence
+Welcome to the **GitHub Foundations (GH-900) Demo Repository**.
 
-1. **Build the foundation:** learn version control vocabulary and compare Git
-	 with GitHub; explore commits, branches, and GitHub Flow.
-2. **Understand repository structure:** inspect repository files, settings,
-	 branches, and maintenance features.
-3. **Practice collaboration:** follow an issue through a pull request, review,
-	 discussion, and notification workflow.
-4. **Explore development tools:** survey Actions, Copilot, Codespaces,
-	 dev containers, and `github.dev` at a foundational level.
-5. **Organize and secure work:** use Projects concepts and review account,
-	 repository, and organization access controls.
-6. **Connect to the community:** explore open-source participation, the
-	 Marketplace, InnerSource, and ways to share or discover projects.
-7. **Review and self-assess:** revisit the official study guide, complete
-	 hands-on practice, and use the Microsoft Learn practice assessment to find
-	 topics that need another pass.
+This repository has been designed to support learners preparing for the **GH-900: GitHub Foundations** certification while developing practical skills using Git, GitHub, and modern collaborative development workflows.
 
-## Who This Is For
+Throughout the GitHub Foundations learning path, learners explore how GitHub enables teams to collaborate, manage projects, automate workflows, secure code, and participate in both private and open-source software development.
 
-GH-900 is a beginner-level foundation for developers, students,
-administrators, project contributors, and other GitHub users. Prior GitHub
-experience is helpful but is not the point of the course: the goal is to build
-a shared vocabulary and a reliable understanding of the platform's essential
-workflows.
+This repository provides a safe environment to:
 
-## About This Repository
+- Practice GitHub fundamentals
+- Complete hands-on exercises
+- Explore repository management
+- Learn collaboration workflows
+- Demonstrate GitHub Actions
+- Understand GitHub security concepts
+- Experiment with GitHub project management features
+- Build confidence for the GH-900 certification exam
 
-Use this demo repository as a place to follow along, capture notes, and add
-small practice artifacts as you study. A useful practice task is to create a
-sample repository with a clear README, make a branch and commit, open an issue,
-and propose a change through a pull request. Keep experiments in a practice
-repository and avoid publishing credentials, private data, or work you are not
-authorized to share.
+---
 
-This is an independent learning aid, not an official Microsoft or GitHub
-course repository. Course materials, product names, and exam objectives belong
-to their respective owners. The curriculum summary here is intentionally
-high-level; use the linked Microsoft Learn pages for the authoritative,
-current requirements and full topic details.
+# 🎯 Learning Objectives
 
-## Official Microsoft Learn Resources
+By the end of the GitHub Foundations curriculum, learners should be able to:
 
-- [GH-900T00-A: GitHub Foundations course](https://learn.microsoft.com/en-us/training/courses/gh-900t00)
-- [GitHub Foundations certification](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/)
-- [Exam GH-900 study guide](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/gh-900)
-- [Microsoft Learn practice assessment](https://learn.microsoft.com/en-us/credentials/certifications/github-foundations/practice/assessment?assessment-type=practice&assessmentId=954809103&practice-assessment-type=certification)
+## Git and GitHub Fundamentals
 
-> Microsoft may revise course content and exam skills. Check the official
-> course and study guide before using this README as a final exam checklist.
+✅ Explain the purpose of version control
+
+✅ Differentiate between Git and GitHub
+
+✅ Understand repositories, commits, branches, and merges
+
+✅ Describe distributed version control concepts
+
+✅ Understand GitHub accounts, organizations, and repositories
+
+---
+
+## Repository Management
+
+✅ Create and manage repositories
+
+✅ Work with files and folders in GitHub
+
+✅ Use Markdown to create professional documentation
+
+✅ Manage branches and releases
+
+✅ Understand repository visibility and access controls
+
+---
+
+## Collaboration
+
+✅ Create and manage Issues
+
+✅ Use Pull Requests (PRs)
+
+✅ Review code changes
+
+✅ Participate in GitHub Discussions
+
+✅ Collaborate using GitHub workflows
+
+✅ Understand repository contribution processes
+
+---
+
+## Modern Development Practices
+
+✅ Understand Continuous Integration and Continuous Deployment (CI/CD)
+
+✅ Explore GitHub Actions
+
+✅ Understand GitHub Codespaces
+
+✅ Learn automation fundamentals
+
+✅ Experience cloud-based development environments
+
+---
+
+## Project Management
+
+✅ Organize work with GitHub Projects
+
+✅ Track requirements and tasks
+
+✅ Understand milestones and planning
+
+✅ Manage team workflows
+
+---
+
+## Security and Administration
+
+✅ Understand authentication and authorization
+
+✅ Describe GitHub security features
+
+✅ Explore Dependabot and code scanning
+
+✅ Understand secrets management
+
+✅ Learn repository security best practices
+
+---
+
+## GitHub Community
+
+✅ Understand open-source development
+
+✅ Learn contribution best practices
+
+✅ Explore community standards
+
+✅ Participate in collaborative development projects
+
+---
+
+# 🧠 Certification Alignment
+
+This repository aligns with the major knowledge domains measured in the **GH-900: GitHub Foundations** certification. The exam validates foundational knowledge of GitHub, repositories, collaboration tools, project management, security, and modern development practices. 【2-950a0f】【1-604378】
+
+### Core Skills Measured
+
+| Domain | Description |
+|----------|------------|
+| Git & GitHub Basics | Foundational concepts and terminology |
+| Repository Management | Managing repositories, files, branches, and releases |
+| Collaboration | Issues, Pull Requests, Reviews, and Discussions |
+| Modern Development | GitHub Actions, Codespaces, and DevOps concepts |
+| Project Management | GitHub Projects and planning |
+| Security & Administration | Authentication, permissions, and security features |
+| GitHub Community | Open source and community engagement |
+
+---
+
+# 🗂 Repository Structure
+
+```text
+gh-900-demo/
+
+├── README.md
+├── docs/
+│   ├── markdown-basics.md
+│   ├── git-fundamentals.md
+│   └── github-concepts.md
+│
+├── exercises/
+│   ├── exercise-01-repositories.md
+│   ├── exercise-02-branches.md
+│   ├── exercise-03-pull-requests.md
+│   ├── exercise-04-issues.md
+│   └── exercise-05-actions.md
+│
+├── templates/
+│   ├── ISSUE_TEMPLATE.md
+│   └── PULL_REQUEST_TEMPLATE.md
+│
+├── workflows/
+│   └── demo-workflow.yml
+│
+└── samples/
+    ├── markdown-demo.md
+    └── project-planning.md
+```
+
+---
+
+# 🚀 Topics Covered
+
+## Module 1: Introduction to Git and GitHub
+
+- What is version control?
+- What problem does Git solve?
+- What is GitHub?
+- GitHub products and services
+- GitHub account types
+- Open source fundamentals
+
+---
+
+## Module 2: Working with Repositories
+
+- Creating repositories
+- Managing files
+- Working with branches
+- Understanding commits
+- Releases and tags
+- Repository settings
+
+---
+
+## Module 3: Collaboration and Contribution
+
+- Issues
+- Pull Requests
+- Code reviews
+- Discussions
+- Notifications
+- Contribution workflows
+
+---
+
+## Module 4: GitHub Actions and Automation
+
+- CI/CD concepts
+- Workflow automation
+- GitHub-hosted runners
+- Common automation scenarios
+- Basic workflow design
+
+---
+
+## Module 5: Project Management
+
+- GitHub Projects
+- Planning and tracking work
+- Roadmaps
+- Milestones
+- Team coordination
+
+---
+
+## Module 6: Security and Compliance
+
+- Authentication methods
+- Personal Access Tokens (PATs)
+- Dependabot
+- Secret management
+- Code scanning
+- Secure development practices
+
+---
+
+## Module 7: GitHub Community and Open Source
+
+- Community standards
+- Contributing guidelines
+- Community health files
+- Open-source participation
+- InnerSource concepts
+
+---
+
+# 🛠 Hands-On Activities
+
+This repository is intended to support practical exercises such as:
+
+| Activity | Skills Practiced |
+|-----------|----------------|
+| Create a Repository | Repository Management |
+| Edit a README | Markdown & Documentation |
+| Create a Branch | Git Fundamentals |
+| Submit a Pull Request | Collaboration |
+| Open an Issue | Work Tracking |
+| Create a GitHub Project | Project Management |
+| Run a GitHub Action | Automation |
+| Review Security Alerts | Security Concepts |
+
+---
+
+# 📚 Recommended Microsoft Learn Path
+
+Learners should complete the official Microsoft Learn GitHub Foundations training path to reinforce the concepts demonstrated in this repository. The learning path covers GitHub fundamentals, repositories, collaboration workflows, project planning, automation, security, and community participation. 【2-950a0f】【1-604378】
+
+Microsoft Learn:
+
+- GitHub Foundations Part 1
+- GitHub Foundations Part 2
+- GitHub Foundations Practice Assessment
+
+---
+
+# 💡 Best Practices
+
+When working through the exercises in this repository:
+
+- Commit frequently
+- Use meaningful commit messages
+- Follow branching strategies
+- Review changes before merging
+- Document your work
+- Protect sensitive information
+- Use pull requests for collaboration
+- Follow GitHub community standards
+
+---
+
+# 🎓 Who Should Use This Repository?
+
+This repository is ideal for:
+
+- New GitHub users
+- Students
+- Technical trainers
+- IT professionals
+- Developers
+- DevOps Engineers
+- Project Managers
+- Technical Leads
+- Anyone preparing for the GH-900 certification
+
+No prior GitHub experience is required.
+
+---
+
+# 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Submit a Pull Request
+5. Participate in the review process
+
+---
+
+# 📜 License
+
+This repository is provided for educational and demonstration purposes.
+
+Use the materials responsibly and always adhere to your organization's security and compliance requirements.
+
+---
+
+<div align="center">
+
+### Happy Learning! 🚀
+
+**GitHub Foundations (GH-900)**
+
+Build the skills needed to collaborate, automate, secure, and innovate with GitHub.
+
+</div>
