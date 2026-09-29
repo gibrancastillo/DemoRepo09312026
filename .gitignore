@@ -352,7 +352,7 @@ paket-files/
 #Python Ignore Contents
 # Python Tools for Visual Studio (PTVS)
 **/__pycache__/
-*.py[cod]
+#Pythong Ignore contents
 *$py.class
 *.pyc
 *.pyo
